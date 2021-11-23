@@ -88,7 +88,7 @@ export const directory = (slug) => {
         case 'tpgoo':
             return "WizardOfOz/Images/The Patchwork Girl Of Oz";
         case 'ttoo':
-            return "WizardOfOz/Images/Tik-Tok Of Oz";
+            return "WizardOfOz/Images/Tik-tok Of Oz";
         case 'tsoo':
             return "WizardOfOz/Images/The Scarecrow of Oz";
         case 'rio':
