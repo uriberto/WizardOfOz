@@ -3,57 +3,32 @@
 </script>
 
 <script>
-	import Counter from '$lib/Counter.svelte';
+	import { goto} from '$app/navigation';
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Wizard Of Oz Illustrations</title>
 </svelte:head>
 
-<section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
+<div class="hero min-h-screen bg-base-200">
+	<div class="flex-col hero-content lg:flex-row-reverse">
+		<img src="/WizardOfOz/Images/Wonderful Wizard Of Oz/0081v.jpg" class="max-w-sm rounded-lg shadow-2xl"> 
+		<div>
+			<h1 class="mb-5 text-5xl font-bold">
+				Wizard Of Oz Illustrations
+				</h1> 
+			<p class="mb-5">
+				This site gathers together the illustrations from the classic L. Frank Baum book series including: The Wonderful Wizard of Oz,
+				The Marvelous Land of Oz, Ozma of Oz, Dorothy and the Wizard in Oz, The Road to Oz, The Emerald City of Oz, The Patchwork Girl of Oz,
+				Tik-Tok of Oz, The Scarecrow of Oz, Rinkitink in Oz, The Lost Princess of Oz, The Tin Woodman of Oz, The Magic of Oz, 
+				and Glinda of Oz.
+			</p> 
+			<p class="mb-7">
+				This site made with love for my little tin woodman, scarecrow, and cowardly lion. 
+			</p>
+			<div class="flex flex-row items-center justify-center gap-3">
+				<button on:click={()=>goto('byBook')} class="btn btn-primary">Books</button><button on:click={()=>goto('byCharacter')} class="btn btn-primary">Characters</button>
+			</div>
 		</div>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+	</div>
+  </div>
