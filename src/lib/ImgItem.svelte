@@ -10,7 +10,7 @@
 
 {#if charname}
 
-	<a href="{link}" rel="{link.endsWith('jpg')||link.endsWith('png') ? "external" : ""}" class="card bordered xlg:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2 px-2 mb-4">
+	<a href="{link}"  class="card bordered xlg:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2 px-2 mb-4">
 		<figure>
 			<img src="{src}">
 		</figure> 
