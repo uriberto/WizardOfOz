@@ -11,7 +11,7 @@
 
 <script>
     import ImgItem from '$lib/ImgItem.svelte';
-    import {img_list, directory, title} from '$lib/api/file_list.js';
+    import {img_list, directory, title} from '$lib/api/book_file_list.js';
     export let slug;
 </script>
 

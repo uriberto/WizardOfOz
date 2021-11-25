@@ -17,7 +17,7 @@
 <script>
 	import ImgItem from '$lib/ImgItem.svelte';
 	
-	import {characterlist, charactername} from '$lib/api/file_list.js';
+	import {characterlist, charactername} from '$lib/api/character_file_lists.js';
 </script>
 
 <svelte:head>
