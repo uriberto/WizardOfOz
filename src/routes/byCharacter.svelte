@@ -29,7 +29,7 @@
 <div class="flex flex-wrap -mb-4 container mx-auto">
   
 	{#each characterlist as character}
-		<ImgItem link={"character/"+character} charname="{charactername(character)}" src={"/WizardOfOz/Images/Characters/"+character+".jpg"}/>
+		<ImgItem link={"/character/"+character} charname="{charactername(character)}" src={"/WizardOfOz/Images/Characters/"+character+".jpg"}/>
 	{/each}
 	
 
