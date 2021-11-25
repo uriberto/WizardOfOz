@@ -12,7 +12,7 @@
 
 <div class="hero min-h-screen bg-base-200">
 	<div class="flex-col hero-content lg:flex-row-reverse">
-		<img src="/WizardOfOz/Images/Wonderful Wizard Of Oz/0081v.jpg" class="max-w-sm rounded-lg shadow-2xl"> 
+		<img src="/WizardOfOz/Images/Wonderful%20Wizard%20Of%20Oz/i075_edit.jpg" class="max-w-sm rounded-lg shadow-2xl"> 
 		<div>
 			<h1 class="mb-5 text-5xl font-bold">
 				Wizard Of Oz Illustrations
