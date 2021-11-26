@@ -22,7 +22,7 @@
 	</a> 
 
 {:else}
-	<a href="{link}" rel="{link.endsWith("jpg")||link.endsWith('png') ? "external" : ''}" class="xlg:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2 px-2 mb-4">
+	<a href="{link}" rel="{link.endsWith("jpg")||link.endsWith('png')||link.endsWith('jpeg') ? "external" : ''}" class="xlg:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2 px-2 mb-4">
 		<img style="width:100%;height:auto;" class="rounded-3xl " class:cursor-pointer={link} src="{src}"/>
 	</a>
 {/if}
