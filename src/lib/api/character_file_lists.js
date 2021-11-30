@@ -3,7 +3,9 @@ export let characterlist = ['dorothy', 'scarecrow','tinwoodman','cowardlylion',
     'wizardofoz', 'flyingmonkeys', 'witchofthewest', 'witchofthenorth', 'hammerheads', 'tip', 
     'sawhorse', 'gump', 'mombi','ozma', 'jelliajamb','fieldmice','fightingtree','gotg','aoo','china',
     'royalev','unclehenry','wheeler','irongiant','langwidere','billina','army','hungrytiger','nomeking',
-    'nomes','tiktok', 'nanda','eureka','gargoyle','piggy','jim','mangaboo','braidedman','zeb','dragonette'];
+    'nomes','tiktok', 'nanda','eureka','gargoyle','piggy','jim','mangaboo','braidedman','zeb','dragonette',
+    'foxes','buttonbright','polychrome','dyna', 'chickthecherub','bearrug', 'princessfluff','scoodler',
+    'donkeys','shaggyman','candyman','rubberbear', 'santa','johnnydooit','queenzixi','musicker'];
 
 
 
@@ -103,6 +105,38 @@ export function charactername(slug){
             return 'Zebediah Hugson';
         case 'dragonette':
             return 'The Dragonettes';
+        case 'foxes':
+            return 'The Foxes of Foxville';
+        case 'buttonbright':
+            return 'Button-Bright'
+        case 'polychrome':
+            return "Polychrome, the rainbow's daughter";
+        case 'dyna':
+            return 'Dyna';
+        case 'chickthecherub':
+            return "John Dough and Chick the Cherub";
+        case 'bearrug':
+            return "The Blue Bear Rug";
+        case 'princessfluff':
+            return 'Princess Fluff';
+        case 'scoodler':
+            return 'The Scoodlers'
+        case 'donkeys':
+            return 'The Donkeys of Dunkiton'
+        case 'shaggyman':
+            return 'The Shaggy Man';
+        case 'candyman':
+            return 'Queen Dolly of Merryland and the Candy Man'
+        case 'rubberbear':
+            return 'Para Bruin, The Rubber Bear';
+        case 'santa':
+            return 'Santa Claus';
+        case 'johnnydooit':
+            return 'Johnny Dooit';
+        case 'queenzixi':
+            return 'Queen Zixi of Ix';
+        case 'musicker':
+            return 'The Musicker';
         default:
             return '';
     }
@@ -126,6 +160,262 @@ let character_lists = {
     'tmoo':{},
     'goo':{}
 };
+
+
+
+//
+// LISTS FOR THE BOOK trto
+//
+
+character_lists['trto']['musicker'] = ['14753134395_0a8a5047b7_o.jpg', '14773005723_08b37ea3a6_o.jpg'];
+
+character_lists['trto']['queenzixi'] = ['14566524959_10ea0b2a87_o.jpg'];
+
+character_lists['trto']['johnnydooit'] = ['14566492328_c06fe6ec9d_o.jpg','14752833312_536b11bb07_o.jpg'];
+
+
+
+character_lists['trto']['tiktok'] = ['14730182016_6ca61d3dfc_o.jpg',
+'14749994701_a53efea691_o.jpg',
+'14752840722_d0f9cd35db_o.jpg',
+'14566473880_d6eea61aba_o.jpg'];
+
+character_lists['trto']['piggy'] = ['14566721557_13be1ed1fc_o.jpg'];
+
+character_lists['trto']['billina'] = ['14566469140_22be122959_o.jpg',
+'14749994701_a53efea691_o.jpg',
+'14752840722_d0f9cd35db_o.jpg'];
+
+character_lists['trto']['wizardofoz'] = ['14566460930_1b15e3b578_o.jpg',
+'14566514678_522b6b70bd_o.jpg',
+'14730179696_43f9c1f4ce_o.jpg',
+'14730182016_6ca61d3dfc_o.jpg'];
+
+character_lists['trto']['sawhorse'] = ['14566527649_c91a6bd53f_o.jpg'];
+
+character_lists['trto']['ozma'] = ['14730179696_43f9c1f4ce_o.jpg',
+'14750008551_1bfe46e130_o.jpg',
+'14750838594_07e069ef10_o.jpg',
+'14753163595_65e72fc16d_o.jpg',
+'14753164885_566110d025_o.jpg'];
+
+character_lists['trto']['toto'] = ['14566437430_efae3f3575_o.jpg',
+'14566467829_cc9181b891_o.jpg',
+'14566474329_b789228110_o.jpg',
+'14566486829_3d53b3cc08_o.jpg',
+'14566497678_43bb30ffab_o.jpg',
+'14566500588_3e3510c767_o.jpg',
+'14566511719_71afb8d999_o.jpg',
+'14566514678_522b6b70bd_o.jpg',
+'14566527649_c91a6bd53f_o.jpg',
+'14566677627_80e9dce6b4_o.jpg',
+'14566691127_062a1d3baf_o.jpg',
+'14566700417_1bc5519182_o.jpg',
+'14566708227_6d432dc2da_o.jpg',
+'14566736087_d99e661897_o.jpg',
+'14730142946_dac06040ee_o.jpg',
+'14730161276_08c3f43567_o.jpg',
+'14749975421_a13ae92558_o.jpg',
+'14749979571_1a6106f66e_o.jpg',
+'14749991481_2c68d242c1_o.jpg',
+'14750778424_3d603e3a71_o.jpg',
+'14750781184_34bf3bea16_o.jpg',
+'14750804294_cc932bd062_o.jpg',
+'14753118065_3f111e1089_o.jpg',
+'14753146805_133dd98351_o.jpg',
+'14753159245_8acf8019e7_o.jpg',
+'14773008293_d4587dfdd2_o.jpg'];
+
+character_lists['trto']['tinwoodman'] = ['14566514678_522b6b70bd_o.jpg',
+'14730161276_08c3f43567_o.jpg',
+'14730179696_43f9c1f4ce_o.jpg',
+'14730182016_6ca61d3dfc_o.jpg',
+'14753153705_66042e6111_o.jpg',
+'14753159245_8acf8019e7_o.jpg'];
+
+character_lists['trto']['braidedman'] = ['14750833444_ef66704474_o.jpg'];
+
+character_lists['trto']['santa'] = ['14566528048_e54cb02d8e_o.jpg',
+'14730179696_43f9c1f4ce_o.jpg',
+'14752859752_f94dd997c3_o.jpg'];
+
+character_lists['trto']['rubberbear'] = ['14566527649_c91a6bd53f_o.jpg', '14753168465_51cbf035a9_o.jpg'];
+
+character_lists['trto']['candyman'] = ['14566523809_970ff5a3c5_o.jpg', '14566525849_71740fafbf_o.jpg'];
+
+character_lists['trto']['shaggyman'] = ['cover.jpg',
+'14566437430_efae3f3575_o.jpg',
+'14566467829_cc9181b891_o.jpg',
+'14566468760_4a2b09bc78_o.jpg',
+'14566478258_7facee9911_o.jpg',
+'14566497678_43bb30ffab_o.jpg',
+'14566500588_3e3510c767_o.jpg',
+'14566686067_6102b081e0_o.jpg',
+'14566691127_062a1d3baf_o.jpg',
+'14566700417_1bc5519182_o.jpg',
+'14566716007_66bb7c7eda_o.jpg',
+'14566717087_c304c9cd6e_o.jpg',
+'14730130566_5c727f8d99_o.jpg',
+'14730161276_08c3f43567_o.jpg',
+'14749975421_a13ae92558_o.jpg',
+'14749979571_1a6106f66e_o.jpg',
+'14749991481_2c68d242c1_o.jpg',
+'14750006071_7f7aa37c1c_o.jpg',
+'14750781184_34bf3bea16_o.jpg',
+'14750792744_69c6a7ae2e_o.jpg',
+'14750804294_cc932bd062_o.jpg',
+'14752818792_7664b02d91_o.jpg',
+'14753118065_3f111e1089_o.jpg',
+'14753131375_cd0c37a0c9_o.jpg',
+'14753146805_133dd98351_o.jpg',
+'14772979543_ea48c58dbb_o.jpg',
+'14772985983_ba10e5108f_o.jpg'];
+
+character_lists['trto']['donkeys'] = ['14566474268_d666933884_o.jpg',
+'14566527649_c91a6bd53f_o.jpg',
+'14566528048_e54cb02d8e_o.jpg',
+'14730130566_5c727f8d99_o.jpg',
+'14752818792_7664b02d91_o.jpg'];
+
+character_lists['trto']['gotg'] = ['14753159245_8acf8019e7_o.jpg'];
+
+character_lists['trto']['scoodler'] = ['14566460500_a4f8b19897_o.jpg',
+'14730142946_dac06040ee_o.jpg',
+'14749979571_1a6106f66e_o.jpg',
+'14749982681_93bcd74182_o.jpg',
+'14752830102_28b8382d56_o.jpg',
+'14773008293_d4587dfdd2_o.jpg'];
+
+character_lists['trto']['princessfluff'] = ['14566528048_e54cb02d8e_o.jpg'];
+
+character_lists['trto']['bearrug'] = ['14750838594_07e069ef10_o.jpg', '14773029193_430621373d_o.jpg'];
+
+character_lists['trto']['chickthecherub'] = ['14753168465_51cbf035a9_o.jpg', '14773041343_528f02a3d9_o.jpg'];
+
+character_lists['trto']['fieldmice'] = ['14730179696_43f9c1f4ce_o.jpg'];
+
+character_lists['trto']['glinda'] = ['14566519398_1042beab10_o.jpg', '14730182016_6ca61d3dfc_o.jpg'];
+
+character_lists['trto']['dyna'] = ['14773029193_430621373d_o.jpg']
+
+character_lists['trto']['polychrome'] = ['14566444220_23a2b204c6_o.jpg',
+'14566494018_3b757584b2_o.jpg',
+'14566497678_43bb30ffab_o.jpg',
+'14566500588_3e3510c767_o.jpg',
+'14566679777_10a5bc6523_o.jpg',
+'14566691127_062a1d3baf_o.jpg',
+'14566700417_1bc5519182_o.jpg',
+'14566708617_1f0e2d41f9_o.jpg',
+'14730161276_08c3f43567_o.jpg',
+'14749979571_1a6106f66e_o.jpg',
+'14749991481_2c68d242c1_o.jpg',
+'14750787714_f96c80ae18_o.jpg',
+'14750804294_cc932bd062_o.jpg',
+'14752830102_28b8382d56_o.jpg',
+'14752869262_a8cf33ed89_o.jpg',
+'14753146805_133dd98351_o.jpg',
+'14753159245_8acf8019e7_o.jpg',
+'14753164885_566110d025_o.jpg',
+'14772997163_14b4b83d4d_o.jpg'];
+
+character_lists['trto']['buttonbright'] = ['14566437430_efae3f3575_o.jpg',
+'14566473880_d6eea61aba_o.jpg',
+'14566474329_b789228110_o.jpg',
+'14566500588_3e3510c767_o.jpg',
+'14566514678_522b6b70bd_o.jpg',
+'14566528048_e54cb02d8e_o.jpg',
+'14566672637_5fa76681fa_o.jpg',
+'14566677627_80e9dce6b4_o.jpg',
+'14566686067_6102b081e0_o.jpg',
+'14566691127_062a1d3baf_o.jpg',
+'14566700417_1bc5519182_o.jpg',
+'14730130566_5c727f8d99_o.jpg',
+'14730161276_08c3f43567_o.jpg',
+'14749975421_a13ae92558_o.jpg',
+'14749979571_1a6106f66e_o.jpg',
+'14749991481_2c68d242c1_o.jpg',
+'14750781184_34bf3bea16_o.jpg',
+'14750804294_cc932bd062_o.jpg',
+'14752818792_7664b02d91_o.jpg',
+'14753118065_3f111e1089_o.jpg',
+'14753134395_0a8a5047b7_o.jpg',
+'14753146805_133dd98351_o.jpg',
+'14753159245_8acf8019e7_o.jpg'];
+
+character_lists['trto']['foxes'] = ['14566438690_d91ddb7936_o.jpg',
+'14566442120_5c2a7b13d1_o.jpg',
+'14566527649_c91a6bd53f_o.jpg',
+'14566528048_e54cb02d8e_o.jpg',
+'14566674107_a6a334166e_o.jpg',
+'14566675977_fec9e6631d_o.jpg',
+'14752812992_6666984e0a_o.jpg'];
+
+character_lists['trto']['scarecrow'] = ['14566514678_522b6b70bd_o.jpg',
+'14730179696_43f9c1f4ce_o.jpg',
+'14730182016_6ca61d3dfc_o.jpg',
+'14750828724_7d99a0b9e0_o.jpg'];
+
+character_lists['trto']['jackpumpkinhead'] = ['14566460208_2509216357_o.jpg',
+'14566504258_fb0a9007d7_o.jpg',
+'14566514678_522b6b70bd_o.jpg',
+'14730179696_43f9c1f4ce_o.jpg',
+'14730182016_6ca61d3dfc_o.jpg',
+'14773026823_079d3e10b3_o.jpg',
+'14773039803_17f5daabde_o.jpg'];
+
+character_lists['trto']['cowardlylion'] = ['14566507568_fb0262fceb_o.jpg',
+'14566511719_71afb8d999_o.jpg',
+'14566527649_c91a6bd53f_o.jpg',
+'14566713057_69c8180a95_o.jpg',
+'14730182016_6ca61d3dfc_o.jpg',
+'14753159245_8acf8019e7_o.jpg'];
+
+
+character_lists['trto']['hungrytiger'] = ['14566527649_c91a6bd53f_o.jpg',
+'14730178206_425d457978_o.jpg',
+'14753158095_e3968295d7_o.jpg',
+'14773028093_73370445fd_o.jpg'];
+
+
+
+
+character_lists['trto']['dorothy'] = ['14566437430_efae3f3575_o.jpg',
+'14566438690_d91ddb7936_o.jpg',
+'14566494018_3b757584b2_o.jpg',
+'14566497678_43bb30ffab_o.jpg',
+'14566500588_3e3510c767_o.jpg',
+'14566514678_522b6b70bd_o.jpg',
+'14566673787_0acbee2390_o.jpg',
+'14566677627_80e9dce6b4_o.jpg',
+'14566691127_062a1d3baf_o.jpg',
+'14566700417_1bc5519182_o.jpg',
+'14566708227_6d432dc2da_o.jpg',
+'14566713057_69c8180a95_o.jpg',
+'14730130566_5c727f8d99_o.jpg',
+'14730161276_08c3f43567_o.jpg',
+'14749975421_a13ae92558_o.jpg',
+'14749979571_1a6106f66e_o.jpg',
+'14749991481_2c68d242c1_o.jpg',
+'14750008551_1bfe46e130_o.jpg',
+'14750778424_3d603e3a71_o.jpg',
+'14750781184_34bf3bea16_o.jpg',
+'14750804294_cc932bd062_o.jpg',
+'14750841884_dece101b65_o.jpg',
+'14752818792_7664b02d91_o.jpg',
+'14753118065_3f111e1089_o.jpg',
+'14753146805_133dd98351_o.jpg',
+'14753159245_8acf8019e7_o.jpg',
+'14772997163_14b4b83d4d_o.jpg'];
+
+
+
+
+
+
+
+
+
+
 
 
 
