@@ -2,10 +2,12 @@ export let characterlist = ['dorothy', 'scarecrow','tinwoodman','cowardlylion',
     'glinda', 'wogglebug', 'jackpumpkinhead', 'jinjur', 'toto', 'munchkins', 'kalida', 
     'wizardofoz', 'flyingmonkeys', 'witchofthewest', 'witchofthenorth', 'hammerheads', 'tip', 
     'sawhorse', 'gump', 'mombi','ozma', 'jelliajamb','fieldmice','fightingtree','gotg','aoo','china',
-    'royalev','unclehenry','wheeler','irongiant','langwidere','billina','army','hungrytiger','nomeking',
+    'royalev','unclehenry','auntem','wheeler','irongiant','langwidere','billina','army','hungrytiger','nomeking','guph',
     'nomes','tiktok', 'nanda','eureka','gargoyle','piggy','jim','mangaboo','braidedman','zeb','dragonette',
     'foxes','buttonbright','polychrome','dyna', 'chickthecherub','bearrug', 'princessfluff','scoodler',
-    'donkeys','shaggyman','candyman','rubberbear', 'santa','johnnydooit','queenzixi','musicker'];
+    'donkeys','shaggyman','candyman','rubberbear', 'santa','johnnydooit','queenzixi','musicker','utensils',
+    'zebraandcrab','bunny', 'flutterbudget','phanfasm','buns','cuttenclips','whimsies','fuddles','aligator',
+    'growleywog','kangaroo','rigmarole'];
 
 
 
@@ -78,7 +80,7 @@ export function charactername(slug){
         case 'billina':
             return 'Billina the Hen';
         case 'army':
-            return 'The army of oz';
+            return 'Omby Amby, The army of oz';
         case 'hungrytiger':
             return 'The Hungry Tiger';
         case 'nomeking':
@@ -137,6 +139,36 @@ export function charactername(slug){
             return 'Queen Zixi of Ix';
         case 'musicker':
             return 'The Musicker';
+        case 'utensils':
+            return 'The utensils of Utensia';
+        case 'zebraandcrab':
+            return 'Zebra and Crab';
+        case 'bunny':
+            return 'The bunnies of Bunnybury';
+        case 'flutterbudget':
+            return 'Flutterbudgets'
+        case 'guph':
+            return 'General Guph of the Nomes';
+        case 'auntem':
+            return 'Aunt Em';
+        case 'phanfasm':
+            return 'Phanfasms';
+        case 'buns':
+            return 'The buns of Bunburry';
+        case 'cuttenclips':
+            return 'The cuttenclips';
+        case 'whimsies':
+            return 'The whimsies';
+        case 'fuddles':
+            return 'The fuddles';
+        case 'aligator':
+            return 'The aligator guarding the land of phanfasms'
+        case 'growleywog':
+            return 'The growleywogs';
+        case 'kangaroo':
+            return 'The crying kangaroo'
+        case 'rigmarole':
+            return 'The rigmaroles';
         default:
             return '';
     }
@@ -160,6 +192,274 @@ let character_lists = {
     'tmoo':{},
     'goo':{}
 };
+
+
+//
+// LISTS FOR THE BOOK tecoo
+//
+
+
+character_lists['tecoo']['dorothy'] = ['i004al.jpg',
+'i006l.jpg',
+'i010l.jpg',
+'i027l.jpg',
+'i041l.jpg',
+'i052l.jpg',
+'i064l.jpg',
+'i072l.jpg',
+'i101l.jpg',
+'i108l.jpg',
+'i117l.jpg',
+'i149l.jpg',
+'i161l.jpg',
+'i172l.jpg',
+'i181l.jpg',
+'i184l.jpg',
+'i187l.jpg',
+'i196l.jpg',
+'i214l.jpg',
+'i227l.jpg',
+'i241l.jpg',
+'i246l.jpg',
+'i251l.jpg',
+'i257l.jpg',
+'i258l.jpg',
+'i259l.jpg',
+'i283l.jpg',
+'i287l.jpg',
+'i291l.jpg',
+'i301l.jpg',
+'i311l.jpg',
+'i323l.jpg',
+'i328l.jpg'];
+
+character_lists['tecoo']['nomeking'] = ['i015l.jpg',
+'i020l.jpg',
+'i022l.jpg',
+'i043l.jpg',
+'i047l.jpg',
+'i155l.jpg',
+'i159l.jpg',
+'i305l.jpg',
+'i315l.jpg'];
+
+character_lists['tecoo']['cowardlylion'] = ['i063l.jpg', 'i081l.jpg', 'i085l.jpg'];
+
+character_lists['tecoo']['fieldmice'] = ['i004cl.jpg'];
+
+character_lists['tecoo']['eureka'] = ['i023l.jpg', 'i033l.jpg'];
+
+character_lists['tecoo']['jackpumpkinhead'] = ['i287l.jpg', 'i291l.jpg', 'i302l.jpg', 'i308l.jpg', 'i311l.jpg'];
+
+character_lists['tecoo']['tinwoodman'] = ['cover.jpg',
+'i003l.jpg',
+'i006l.jpg',
+'i271l.jpg',
+'i278l.jpg',
+'i283l.jpg',
+'i287l.jpg',
+'i291l.jpg',
+'i308l.jpg',
+'i311l.jpg'];
+
+character_lists['tecoo']['sawhorse'] = ['i004al.jpg',
+'i008l.jpg',
+'i101l.jpg',
+'i108l.jpg',
+'i123l.jpg',
+'i139l.jpg',
+'i161l.jpg',
+'i169l.jpg',
+'i251l.jpg',
+'i258l.jpg',
+'i259l.jpg',
+'i283l.jpg',
+'i287l.jpg',
+'i291l.jpg'];
+
+character_lists['tecoo']['tiktok'] = ['i308l.jpg'];
+
+character_lists['tecoo']['hungrytiger'] = ['i063l.jpg'];
+
+character_lists['tecoo']['munchkins'] = ['i033l.jpg'];
+
+character_lists['tecoo']['wogglebug'] = ['i101l.jpg', 'i291l.jpg'];
+
+character_lists['tecoo']['scarecrow'] = ['cover.jpg',
+'i003l.jpg',
+'i006l.jpg',
+'i279l.jpg',
+'i283l.jpg',
+'i287l.jpg',
+'i291l.jpg',
+'i299l.jpg',
+'i308l.jpg',
+'i311l.jpg'];
+
+character_lists['tecoo']['shaggyman'] = ['i101l.jpg',
+'i108l.jpg',
+'i121l.jpg',
+'i172l.jpg',
+'i258l.jpg',
+'i259l.jpg',
+'i283l.jpg',
+'i287l.jpg'];
+
+character_lists['tecoo']['glinda'] = ['i323l.jpg', 'i324l.jpg'];
+
+character_lists['tecoo']['nomes'] = ['i013l.jpg', 'i043l.jpg', 'i071l.jpg', 'i305l.jpg'];
+
+character_lists['tecoo']['billina'] = ['i105l.jpg', 'i181l.jpg', 'i184l.jpg', 'i187l.jpg', 'i246l.jpg'];
+
+character_lists['tecoo']['ozma'] = ['cover.jpg',
+'i008l.jpg',
+'i041l.jpg',
+'i042l.jpg',
+'i063l.jpg',
+'i123l.jpg',
+'i210l.jpg',
+'i289l.jpg',
+'i291l.jpg',
+'i311l.jpg',
+'i317l.jpg',
+'i319l.jpg',
+'i323l.jpg',
+'i328l.jpg'];
+
+character_lists['tecoo']['wizardofoz'] = ['i004al.jpg',
+'i011l.jpg',
+'i101l.jpg',
+'i108l.jpg',
+'i149l.jpg',
+'i161l.jpg',
+'i172l.jpg',
+'i251l.jpg',
+'i253l.jpg',
+'i257l.jpg',
+'i258l.jpg',
+'i259l.jpg',
+'i283l.jpg',
+'i287l.jpg',
+'i291l.jpg',
+'i311l.jpg',
+'i328l.jpg'];
+
+character_lists['tecoo']['toto'] = ['i181l.jpg', 'i184l.jpg', 'i185l.jpg', 'i187l.jpg', 'i246l.jpg','i253l.jpg'];
+
+character_lists['tecoo']['unclehenry'] = ['i006l.jpg',
+'i023l.jpg',
+'i032l.jpg',
+'i059l.jpg',
+'i072l.jpg',
+'i075l.jpg',
+'i081l.jpg',
+'i101l.jpg',
+'i108l.jpg',
+'i153l.jpg',
+'i161l.jpg',
+'i172l.jpg',
+'i251l.jpg',
+'i257l.jpg',
+'i258l.jpg',
+'i259l.jpg',
+'i283l.jpg',
+'i287l.jpg',
+'i311l.jpg'];
+
+character_lists['tecoo']['army'] = ['i004al.jpg',
+'i006l.jpg',
+'i101l.jpg',
+'i108l.jpg',
+'i161l.jpg',
+'i172l.jpg',
+'i257l.jpg',
+'i258l.jpg',
+'i259l.jpg',
+'i269l.jpg',
+'i283l.jpg',
+'i287l.jpg'];
+
+character_lists['tecoo']['piggy'] = ['cover.jpg', 'i004cl.jpg','i253l.jpg'];
+
+character_lists['tecoo']['utensils'] = ['i181l.jpg', 'i184l.jpg', 'i185l.jpg', 'i187l.jpg', 'i195l.jpg'];
+
+character_lists['tecoo']['zebraandcrab'] = ['i177l.jpg'];
+
+character_lists['tecoo']['bunny'] = ['i009al.jpg',
+'i009cl.jpg',
+'i010l.jpg',
+'i012l.jpg',
+'i221l.jpg',
+'i223l.jpg',
+'i227l.jpg',
+'i233l.jpg',
+'i234l.jpg',
+'i241l.jpg',
+'i245l.jpg'];
+
+character_lists['tecoo']['flutterbudget'] = ['i263l.jpg'];
+
+character_lists['tecoo']['guph'] = ['i047l.jpg',
+'i049l.jpg',
+'i051l.jpg',
+'i065l.jpg',
+'i069l.jpg',
+'i086l.jpg',
+'i093l.jpg',
+'i124l.jpg',
+'i127l.jpg',
+'i133l.jpg',
+'i137l.jpg',
+'i155l.jpg',
+'i303l.jpg'];
+
+character_lists['tecoo']['auntem'] = ['i006l.jpg',
+'i032l.jpg',
+'i059l.jpg',
+'i072l.jpg',
+'i081l.jpg',
+'i095l.jpg',
+'i101l.jpg',
+'i108l.jpg',
+'i171l.jpg',
+'i172l.jpg',
+'i257l.jpg',
+'i283l.jpg',
+'i287l.jpg'];
+
+character_lists['tecoo']['phanfasm'] = ['i127l.jpg', 'i133l.jpg', 'i311l.jpg'];
+
+character_lists['tecoo']['buns'] = ['i203l.jpg', 'i209l.jpg'];
+
+character_lists['tecoo']['cuttenclips'] = ['i117l.jpg', 'i121l.jpg'];
+
+character_lists['tecoo']['whimsies'] = ['i069l.jpg', 'i070l.jpg'];
+
+character_lists['tecoo']['fuddles'] = ['i149l.jpg'];
+
+character_lists['tecoo']['aligator'] = ['i127l.jpg'];
+
+character_lists['tecoo']['growleywog'] = ['i089l.jpg', 'i303l.jpg'];
+
+character_lists['tecoo']['kangaroo'] = ['i141l.jpg'];
+
+character_lists['tecoo']['rigmarole'] = ['i253l.jpg'];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
