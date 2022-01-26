@@ -7,7 +7,9 @@ export let characterlist = ['dorothy', 'scarecrow','tinwoodman','cowardlylion',
     'foxes','buttonbright','polychrome','dyna', 'chickthecherub','bearrug', 'princessfluff','scoodler',
     'donkeys','shaggyman','candyman','rubberbear', 'santa','johnnydooit','queenzixi','musicker','utensils',
     'zebraandcrab','bunny', 'flutterbudget','phanfasm','buns','cuttenclips','whimsies','fuddles','aligator',
-    'growleywog','kangaroo','rigmarole'];
+    'growleywog','kangaroo','rigmarole','horners','woozy','glasscat','yoop','tollydiggle','hoppers','ojo',
+    'uncnunkie', 'patchworkgirl', 'phono', 'pipt', 'margolotte', 'wisedonkeyandfoolishowl',
+    'envelopingleaves','tottenhots','chiss'];
 
 
 
@@ -169,6 +171,38 @@ export function charactername(slug){
             return 'The crying kangaroo'
         case 'rigmarole':
             return 'The rigmaroles';
+        case 'horners':
+            return 'The Horners';
+        case 'hoppers':
+            return 'The Hoppers';
+        case 'woozy':
+            return 'The Woozy';
+        case 'glasscat':
+            return 'Bungle, The Glass Cat';
+        case 'yoop':
+            return 'Yoop, the giant';
+        case 'tollydiggle':
+            return 'Tollydiggle, the jailer of oz';
+        case 'ojo':
+            return 'Ojo the (Un)Lucky';
+        case 'patchworkgirl':
+            return 'Scraps, The Patchwork Girl';
+        case 'phono':
+            return 'Victor Columbia Edison (Vic), the phonograph';
+        case 'pipt':
+            return 'Dr. Pipt, the crooked magician';
+        case 'wisedonkeyandfoolishowl':
+            return 'The Wise Donkey and Foolish Owl';
+        case 'envelopingleaves':
+            return 'The enveloping leaves';
+        case 'margolotte':
+            return 'Dame Margolotte, wife of Dr. Pipt';
+        case 'uncnunkie':
+            return 'Unc Nunkie, the silent one';
+        case 'tottenhots':
+            return 'The Tottenhots';
+        case 'chiss':
+            return 'Chiss, the giant porcupine';
         default:
             return '';
     }
@@ -192,6 +226,223 @@ let character_lists = {
     'tmoo':{},
     'goo':{}
 };
+
+
+
+//
+// LISTS FOR THE BOOK tpgoo
+//
+
+character_lists['tpgoo']['chiss'] = ['i150.jpg', 'i151.jpg'];
+
+character_lists['tpgoo']['glinda'] = ['i217.jpg'];
+
+character_lists['tpgoo']['sawhorse'] = ['i162.jpg', 'i173.jpg', 'i218.jpg'];
+
+character_lists['tpgoo']['tottenhots'] = ['i238.jpg', 'i239.jpg', 'i243.jpg'];
+
+character_lists['tpgoo']['aoo'] = ['i185.jpg'];
+
+character_lists['tpgoo']['uncnunkie'] = ['i018.jpg', 'i019b.jpg', 'i337.jpg'];
+
+character_lists['tpgoo']['margolotte'] = ['i029.jpg'];
+
+character_lists['tpgoo']['wogglebug'] = ['i009.jpg'];
+
+character_lists['tpgoo']['jinjur'] = ['i211b.jpg'];
+
+character_lists['tpgoo']['toto'] = ['i199b.jpg', 'i210.jpg', 'i250.jpg', 'i311.jpg', 'i314-315.jpg', 'i330.jpg'];
+
+character_lists['tpgoo']['envelopingleaves'] = ['i114.jpg', 'i119.jpg', 'i122.jpg'];
+
+character_lists['tpgoo']['wisedonkeyandfoolishowl'] = ['i087b.jpg', 'i091.jpg', 'i093.jpg', 'i094.jpg'];
+
+character_lists['tpgoo']['pipt'] = ['i025.jpg', 'i041.jpg'];
+
+character_lists['tpgoo']['horners'] = ['i271b.jpg', 'i278-279.jpg', 'i293.jpg', 'i294.jpg', 'i295b.jpg']
+
+character_lists['tpgoo']['cowardlylion'] = ['endpaper.jpg', 'i222-223.jpg', 'i333.jpg'];
+
+character_lists['tpgoo']['woozy'] = ['i001.jpg',
+'i103.jpg',
+'i107.jpg',
+'i110.jpg',
+'i121.jpg',
+'i149.jpg',
+'i156-157.jpg',
+'i173.jpg',
+'i178-179.jpg',
+'i209.jpg'];
+
+character_lists['tpgoo']['shaggyman'] = ['i010.jpg', 'i119.jpg', 'i123b.jpg', 'i142.jpg', 'i155b.jpg', 'i156-157.jpg'];
+
+character_lists['tpgoo']['ozma'] = ['i009.jpg', 'i219b.jpg', 'i222-223.jpg', 'i327.jpg'];
+
+character_lists['tpgoo']['dorothy'] = ['i006.jpg',
+'i009.jpg',
+'i199b.jpg',
+'i207.jpg',
+'i209.jpg',
+'i210.jpg',
+'i219b.jpg',
+'i239.jpg',
+'i249.jpg',
+'i250.jpg',
+'i255.jpg',
+'i261.jpg',
+'i291.jpg',
+'i295b.jpg',
+'i307b.jpg',
+'i311.jpg',
+'i314-315.jpg',
+'i329.jpg'];
+
+character_lists['tpgoo']['jackpumpkinhead'] = ['i218.jpg', 'i231b.jpg', 'i232-233.jpg'];
+
+character_lists['tpgoo']['wizardofoz'] = ['i331b.jpg', 'i335.jpg'];
+
+character_lists['tpgoo']['glasscat'] = ['i040.jpg',
+'i043b.jpg',
+'i050.jpg',
+'i073.jpg',
+'i078.jpg',
+'i095b.jpg',
+'i103.jpg',
+'i111b.jpg',
+'i141.jpg',
+'i156-157.jpg'];
+
+character_lists['tpgoo']['scarecrow'] = ['endpaper.jpg',
+'i008.jpg',
+'i009.jpg',
+'i162.jpg',
+'i166-167.jpg',
+'i174.jpg',
+'i178-179.jpg',
+'i211b.jpg',
+'i219b.jpg',
+'i230.jpg',
+'i243.jpg',
+'i246-247.jpg',
+'i249.jpg',
+'i251b.jpg',
+'i255.jpg',
+'i261.jpg',
+'i277.jpg',
+'i283b.jpg',
+'i291.jpg',
+'i295b.jpg',
+'i307b.jpg',
+'i311.jpg',
+'i314-315.jpg',
+'i329.jpg'];
+
+character_lists['tpgoo']['yoop'] = ['i255.jpg'];
+
+character_lists['tpgoo']['tollydiggle'] = ['i195.jpg'];
+
+character_lists['tpgoo']['hoppers'] = ['i262.jpg', 'i263b.jpg'];
+
+character_lists['tpgoo']['tinwoodman'] = ['endpaper.jpg', 'i009.jpg', 'i319b.jpg', 'i321.jpg', 'i330.jpg'];
+
+character_lists['tpgoo']['ojo'] = ['i015b.jpg',
+'i019b.jpg',
+'i030.jpg',
+'i035.jpg',
+'i067.jpg',
+'i073.jpg',
+'i095b.jpg',
+'i103.jpg',
+'i114.jpg',
+'i119.jpg',
+'i122.jpg',
+'i139.jpg',
+'i143b.jpg',
+'i151.jpg',
+'i155b.jpg',
+'i156-157.jpg',
+'i171.jpg',
+'i175b.jpg',
+'i178-179.jpg',
+'i184.jpg',
+'i189.jpg',
+'i195.jpg',
+'i197.jpg',
+'i198.jpg',
+'i214.jpg',
+'i222-223.jpg',
+'i230.jpg',
+'i249.jpg',
+'i255.jpg',
+'i261.jpg',
+'i291.jpg',
+'i293.jpg',
+'i295b.jpg',
+'i298.jpg',
+'i307b.jpg',
+'i311.jpg',
+'i314-315.jpg',
+'i321.jpg',
+'i329.jpg',
+'i337.jpg'];
+
+character_lists['tpgoo']['patchworkgirl'] = ['cover.jpg',
+'i003.jpg',
+'i014.jpg',
+'i029.jpg',
+'i031b.jpg',
+'i042.jpg',
+'i049.jpg',
+'i051b.jpg',
+'i063b.jpg',
+'i067.jpg',
+'i073.jpg',
+'i077.jpg',
+'i079b.jpg',
+'i095b.jpg',
+'i103.jpg',
+'i109.jpg',
+'i127.jpg',
+'i134.jpg',
+'i139.jpg',
+'i146.jpg',
+'i151.jpg',
+'i155b.jpg',
+'i156-157.jpg',
+'i166-167.jpg',
+'i171.jpg',
+'i175b.jpg',
+'i178-179.jpg',
+'i186.jpg',
+'i201.jpg',
+'i222-223.jpg',
+'i246-247.jpg',
+'i249.jpg',
+'i255.jpg',
+'i261.jpg',
+'i277.jpg',
+'i291.jpg',
+'i294.jpg',
+'i295b.jpg',
+'i299b.jpg',
+'i307b.jpg',
+'i311.jpg',
+'i314-315.jpg'];
+
+character_lists['tpgoo']['hungrytiger'] = ['endpaper.jpg', 'i222-223.jpg', 'i333.jpg'];
+
+character_lists['tpgoo']['gotg'] = ['i187b.jpg'];
+
+character_lists['tpgoo']['phono'] = ['i054.jpg', 'i082.jpg', 'i134.jpg'];
+
+
+
+
+
+
+
+
+
 
 
 //
