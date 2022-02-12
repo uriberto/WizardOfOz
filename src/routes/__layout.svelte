@@ -3,7 +3,7 @@
 </script>
 
 
-	<main class="bg-base-100" data-theme="light">
+	<main class="bg-base-100" style="min-height:100vh;" data-theme="light">
 		<slot />
 	</main>
 

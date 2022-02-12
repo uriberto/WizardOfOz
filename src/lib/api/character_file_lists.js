@@ -9,7 +9,8 @@ export let characterlist = ['dorothy', 'scarecrow','tinwoodman','cowardlylion',
     'zebraandcrab','bunny', 'flutterbudget','phanfasm','buns','cuttenclips','whimsies','fuddles','aligator',
     'growleywog','kangaroo','rigmarole','horners','woozy','glasscat','yoop','tollydiggle','hoppers','ojo',
     'uncnunkie', 'patchworkgirl', 'phono', 'pipt', 'margolotte', 'wisedonkeyandfoolishowl',
-    'envelopingleaves','tottenhots','chiss'];
+    'envelopingleaves','tottenhots','chiss','ozga','files','kaq','queenann','kaliko','gardener', 'quox',
+    'betsybobbin','shaggybrother','roses','hank','longear','ttthc','ooo'];
 
 
 
@@ -203,6 +204,34 @@ export function charactername(slug){
             return 'The Tottenhots';
         case 'chiss':
             return 'Chiss, the giant porcupine';
+        case 'ozga':
+            return "Ozga, the rose princess";
+        case 'files':
+            return "Jo Files of Oogaboo";
+        case 'kaq':
+            return 'Tubekins, the queen of light, and other kings and queens of the land ruled by Tititihoochoo';
+        case 'queenann':
+            return "Queen Ann Soforth of Oogaboo";
+        case 'kaliko':
+            return 'Kaliko, the royal chamberlain and later king of the nomes';
+        case 'gardener':
+            return "The royal gardener of the rose kingdom";
+        case 'quox':
+            return "Quox the dragon";
+        case 'betsybobbin':
+            return "Betsy Bobbin";
+        case 'shaggybrother':
+            return "The Shaggy Man's brother";
+        case 'roses':
+            return "The roses of the rose kingdom";
+        case 'hank':
+            return 'Hank the mule';
+        case 'longear':
+            return 'The Long-Eared Hearer'
+        case 'ttthc':
+            return "Tititi-Hoochoo, the Great Jinjin, aka. the Private Citizen";
+        case 'ooo':
+            return "The officers of Oogaboo";
         default:
             return '';
     }
@@ -226,6 +255,186 @@ let character_lists = {
     'tmoo':{},
     'goo':{}
 };
+
+
+//
+// LISTS FOR THE BOOK ttoo
+//
+
+
+character_lists['ttoo']['ozga'] = ['p057.png',
+ 'p059.png',
+ 'p063.png',
+ 'p078.png',
+ 'p085.png',
+ 'p117.png',
+ 'p177.png',
+ 'toc_bkgrnd.png',
+ 'toc_epub.png'];
+
+ character_lists['ttoo']['files'] = ['p021.png',
+ 'p025.png',
+ 'p035.png',
+ 'p078.png',
+ 'p085.png',
+ 'p117.png',
+ 'p163.png',
+ 'p177.png'];
+
+character_lists['ttoo']['kaq'] = ['p113.png','p127.png','p129.png','p136.png'];
+
+character_lists['ttoo']['queenann'] = ['p013.png',
+'p021.png',
+'p024.png',
+'p025.png',
+'p027.png',
+'p113.png',
+'p117.png',
+'p163.png',
+'p221.png',
+'p245.png'];
+
+character_lists['ttoo']['kaliko'] = ['p103.png', 'p155.png', 'p171.png', 'p211.png', 'p212.png', 'p219.png', 'p251.png'];
+
+character_lists['ttoo']['guph'] = ['p211.png'];
+
+character_lists['ttoo']['ozma'] = ['p007.png', 'p269.png'];
+
+character_lists['ttoo']['glinda'] = ['p028.png'];
+
+character_lists['ttoo']['tiktok'] = ['cover.jpg',
+'p003.png',
+'p004.png',
+'p009.png',
+'p012.png',
+'p078.png',
+'p099.png',
+'p106.png',
+'p107.png',
+'p117.png',
+'p120.png',
+'p163.png',
+'p166.png',
+'p167.png',
+'p171.png',
+'p179.png',
+'p202.png',
+'p212.png',
+'p219.png',
+'p245.png',
+'toc_bkgrnd.png',
+'toc_epub.png'];
+
+character_lists['ttoo']['dorothy'] = ['p261.png', 'p269.png'];
+
+character_lists['ttoo']['nomes'] = ['p006.png',
+'p008.png',
+'p163.png',
+'p166.png',
+'p179.png',
+'p183.png',
+'p272.png',
+'toc_bkgrnd.png',
+'toc_epub.png'];
+
+character_lists['ttoo']['gardener'] = ['p044.png'];
+
+character_lists['ttoo']['quox'] = ['p159.png', 'p163.png', 'p193.png', 'p213.png'];
+
+character_lists['ttoo']['betsybobbin'] = ['cover.jpg',
+'p004.png',
+'p039.png',
+'p057.png',
+'p059.png',
+'p078.png',
+'p085.png',
+'p117.png',
+'p127.png',
+'p128.png',
+'p135.png',
+'p163.png',
+'p205.png',
+'p219.png',
+'p233.png',
+'p245.png',
+'p269.png',
+'toc_bkgrnd.png',
+'toc_epub.png'];
+
+character_lists['ttoo']['shaggyman'] = ['p048.png',
+'p057.png',
+'p077.png',
+'p078.png',
+'p081.png',
+'p117.png',
+'p163.png',
+'p168.png',
+'p177.png',
+'p183.png',
+'p245.png',
+'p250.png',
+'toc_bkgrnd.png',
+'toc_epub.png'];
+
+character_lists['ttoo']['polychrome'] = ['p065.png',
+'p085.png',
+'p117.png',
+'p148.png',
+'p177.png',
+'p187.png',
+'p192.png',
+'p193.png',
+'p232.png',
+'p245.png',
+'p249.png',
+'toc_bkgrnd.png',
+'toc_epub.png'];
+
+character_lists['ttoo']['shaggybrother'] = ['p233.png'];
+
+character_lists['ttoo']['roses'] = ['p042.png', 'p056.png', 'p057.png', 'p063.png'];
+
+character_lists['ttoo']['sawhorse'] = ['p263.png', 'p269.png'];
+
+character_lists['ttoo']['hank'] = ['cover.jpg',
+'p004.png',
+'p008.png',
+'p012.png',
+'p039.png',
+'p078.png',
+'p117.png',
+'p119.png',
+'p163.png',
+'p205.png',
+'p263.png',
+'p269.png',
+'toc_bkgrnd.png',
+'toc_epub.png'];
+
+character_lists['ttoo']['longear'] = ['p149.png'];
+
+character_lists['ttoo']['toto'] = ['p262.png'];
+
+character_lists['ttoo']['ttthc'] = ['p120.png'];
+
+character_lists['ttoo']['ooo'] = ['p025.png', 'p099.png', 'p163.png'];
+
+character_lists['ttoo']['nomeking'] = ['p008.png',
+'p092.png',
+'p155.png',
+'p158.png',
+'p171.png',
+'p187.png',
+'p201.png',
+'p225.png',
+'p239.png'];
+
+
+
+
+
+
+
 
 
 
@@ -434,7 +643,6 @@ character_lists['tpgoo']['hungrytiger'] = ['endpaper.jpg', 'i222-223.jpg', 'i333
 character_lists['tpgoo']['gotg'] = ['i187b.jpg'];
 
 character_lists['tpgoo']['phono'] = ['i054.jpg', 'i082.jpg', 'i134.jpg'];
-
 
 
 
