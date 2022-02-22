@@ -12,6 +12,47 @@ export let characterlist = ['dorothy', 'scarecrow','tinwoodman','cowardlylion',
     'envelopingleaves','tottenhots','chiss','ozga','files','kaq','queenann','kaliko','gardener', 'quox',
     'betsybobbin','shaggybrother','roses','hank','longear','ttthc','ooo'];
 
+export let goodguys = ['dorothy','scarecrow','tinwoodman','cowardlylion','glinda','wogglebug',
+    'jackpumpkinhead','toto','munchkins','wizardofoz','witchofthenorth','tip','sawhorse','gump',
+    'ozma','jelliajamb','fieldmice', 'gotg','aoo','china','royalev','unclehenry','auntem','billina',
+    'army','hungrytiger','tiktok','eureka','piggy','jim','braidedman','zeb','buttonbright','polychrome',
+    'shaggyman','santa','johnnydooit','woozy','glasscat','ojo','uncnunkie','patchworkgirl','ozga','files',
+    'kaq','queenann','kaliko','quox','betsybobbin','shaggybrother','hank','ttthc','ooo'];
+
+export let sometimesgood = ['flyingmonkeys','jinjur','langwidere']
+
+export let badguys = ['kalida','witchofthewest','hammerheads','mombi','fightingtree',
+    'wheeler','irongiant','nomeking','nomes','guph','longearedhearer','gargoyle','mangaboo','dragonette','scoodler',
+    'utensils','phanfasm','whimsies','growleywog','yoop','envelopingleaves','chiss','gardener'];
+
+
+
+
+
+export let humans = ['dorothy','wizardofoz','unclehenry','auntem','zeb','buttonbright','shaggyman',
+'betsybobbin','shaggybrother'];
+
+export let ozites = ['ozma','scarecrow','tinwoodman','glinda','jinjur','munchkins','witchofthewest',
+'witchofthenorth', 'hammerheads','tip','mombi','jelliajamb','fightingtrees','gotg','aoo','china','army',
+'tollydiggle','utensils','flutterbudget','buns','cuttenclips','fuddles','rigmarole','horners','yoop',
+'hoppers','ojo','uncnunkie','pipt', 'margolotte','tottenhots','files','queenann','ooo'];
+
+export let abm = ['scarecrow','tinwoodman','jackpumpkinhead','sawhorse','gump','bearrug','glasscat',
+'patchworkgirl','phono']
+
+export let animals = ['toto','cowardlylion','wogglebug','kalida','flyingmonkeys','fieldmice','billina',
+'hungrytiger','eureka','piggy','jim','dragonette','foxes','donkeys','zebraandcrab','bunny','aligator',
+'kangaroo','woozy','glasscat','wisedonkeyandfoolishowl','chiss','quox','hank'];
+
+export let witches = ['mombi','glinda','witchofthewest','witchofthenorth'];
+
+export let vfs = ['polychrome','royalev','wheeler','irongiant','langwidere','nomeking','guph','nomes',
+'nanda','gargoyle','mangaboo','braidedman','dyna','chickthecherub','princessfluff','scoodler',
+'candyman','rubberbear', 'santa','johnnydooit','queenzixi','musicker','utensils','flutterbudget',
+'phanfasm','buns','cuttenclips','whimsies','fuddles','growleywog','rigmarole','horners','yoop','hoppers',
+'tottenhots','ozga','kaq','kaliko','gardener','roses','longear','ttthc']
+
+export let others = ['tiktok','envelopingleaves']
 
 
 export function charactername(slug){
