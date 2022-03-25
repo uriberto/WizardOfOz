@@ -27,7 +27,7 @@
 
         <div class="flex flex-wrap -mb-4 container mx-auto">
             {#each character_book_img_list(slug,book) as file}
-                <ImgItem src={'/'+directory(book)+'/'+file} rel="external" link={'/image/'+book+'/'+file}/>
+                <ImgItem src={'/'+directory(book)+'/'+file} rel="external" link={'/image/'+book+'/'+file+'.html'}/>
             {/each}
 
         </div>
