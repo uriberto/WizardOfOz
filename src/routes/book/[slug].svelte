@@ -19,7 +19,7 @@
 
 <div class="flex flex-wrap -mb-4 container mx-auto">
     {#each img_list(slug) as file}
-        <ImgItem src={'/'+directory(slug)+'/'+file} link={'/'+directory(slug)+'/'+file}/>
+        <ImgItem src={'/'+directory(slug)+'/'+file} link={'/image/'+slug+'/'+file}/>
     {/each}
 
 </div>
