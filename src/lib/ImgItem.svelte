@@ -1,4 +1,5 @@
 <script>
+	import Image from "svelte-image";
 	import { goto} from '$app/navigation';
 	export let link;
 	export let src="/WizardOfOz/Images/Wonderful Wizard Of Oz/0001v.jpg";
@@ -12,7 +13,7 @@
 
 	<a href="{link}" class="card bordered xlg:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2 px-2 mb-4">
 		<figure>
-			<img src="{src}">
+			<Image src="{src}"/>
 		</figure> 
 		<div class="card-body">
 			<h2 class="card-title text-center">
@@ -23,6 +24,6 @@
 
 {:else}
 	<a href="{link}" rel="{link.endsWith("jpg")||link.endsWith('png')||link.endsWith('jpeg') ? "external" : ''}" class="xlg:w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2 px-2 mb-4">
-		<img style="width:100%;height:auto;" class="rounded-3xl " class:cursor-pointer={link} src="{src}"/>
+		<Image style="width:100%;height:auto;" class="rounded-3xl " src="{src}"/>
 	</a>
 {/if}

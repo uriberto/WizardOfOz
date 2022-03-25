@@ -1,5 +1,7 @@
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-static';
+import image from "svelte-image";
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -16,7 +18,8 @@ const config = {
 	preprocess: [
 		preprocess({
 			postcss: true
-		})
+		}),
+		image()
 	]
 };
 
