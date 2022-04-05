@@ -17,11 +17,11 @@
 <script>
 	import ImgItem from '$lib/ImgItem.svelte';
 	
-	import {characterlist, goodguys, badguys, charactername, humans, ozites, abm, animals, witches, vfs} from '$lib/api/character_file_lists.js';
+	import {characterlist, goodguys, badguys, charactername, humans, ozites, abm, animals, witches, vfs, others} from '$lib/api/character_file_lists.js';
 
 	import Select from 'svelte-select';
 	let items=['all','good guy', 'bad guy'];
-	let natures = ['all','humans','ozites','alive by magic','animals','witches','various fairies']
+	let natures = ['all','humans','ozites','alive by magic','animals','witches','various fairies','other']
 	let filteredcharacterlist = characterlist;
 	let goodnesslist = characterlist;
 	let naturelist = characterlist;
@@ -65,6 +65,9 @@
 			case 'various fairies':
 				naturelist = vfs;
 				break;
+			case 'other':
+				naturelist = others;
+				break;
 			default:
 				naturelist = characterlist
 		}
@@ -94,7 +97,7 @@
 <div class="section flex flex-wrap -mb-4 container mx-auto">
   
 	{#each filteredcharacterlist as character}
-		<ImgItem link={"/character/"+character} charname="{charactername(character)}" src={"/WizardOfOz/Images/Characters/"+character+".jpg"}/>
+		<ImgItem link={"/character/"+character} charname="{charactername(character)}" alt={`Character Image for ${charactername(character)}`} src={"/WizardOfOz/Images/Characters/"+character+".jpg"}/>
 	{:else}
 		<div>No such character found.</div>
 	{/each}
