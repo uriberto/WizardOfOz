@@ -1,20 +1,22 @@
 export let characterlist = ['dorothy', 'scarecrow','tinwoodman','cowardlylion', 
     'glinda', 'glindasswans', 'wogglebug', 'jackpumpkinhead', 'jinjur', 'toto', 'munchkins', 'kalida', 
-    'wizardofoz', 'flyingmonkeys', 'witchofthewest', 'witchofthenorth', 'hammerheads', 'tip', 
+    'wizardofoz', 'flyingmonkeys', 'witchofthewest', 'witchoftheeast', 'witchofthenorth', 'hammerheads', 'tip', 
     'sawhorse', 'gump', 'mombi','ozma', 'jelliajamb','fieldmice','fightingtree','gotg','aoo','china',
     'royalev','unclehenry','auntem','wheeler','irongiant','langwidere','billina','army','hungrytiger','nomeking','guph',
     'nomes','tiktok', 'nanda','eureka','gargoyle','piggy','jim','mangaboo','braidedman','zeb','dragonette',
     'foxes','buttonbright','polychrome','dyna', 'chickthecherub','bearrug', 'princessfluff','scoodler',
     'donkeys','shaggyman','candyman','rubberbear', 'santa','johnnydooit','queenzixi','musicker','utensils',
     'zebraandcrab','bunny', 'flutterbudget','phanfasm','buns','cuttenclips','whimsies','fuddles','aligator',
-    'growleywog','kangaroo','rigmarole','horners','woozy','glasscat','yoop','tollydiggle','hoppers','ojo',
+    'growleywog','kangaroo','rigmarole','horners','woozy','glasscat','yoop','mrsyoop','tollydiggle','hoppers','ojo',
     'uncnunkie', 'patchworkgirl', 'phono', 'pipt', 'margolotte', 'wisedonkeyandfoolishowl',
     'envelopingleaves','tottenhots','chiss','ozga','files','kaq','queenann','kaliko','gardener', 'quox',
     'betsybobbin','shaggybrother','roses','hank','longear','ttthc','ooo','thewoman','capnbill','gloria',
     'bumpyman','blinkie','krewl','treetoad','ork','mobirds','pessim','guardsofjinxland','googlygoo',
     'trot','pon','seafairies','garee','kingkitticut','inga','zella','pinkerbloo','buzzub','choggenmugger','hairygiant','bilbil',
     'cor','gos','rinkitink','nikobob','warriorofregos','czarover','giantsofherku','ugu','UgusPeacock','UgusFakeArmy','lavenderbear',
-    'pinkbear','bearsofbearcenter','unhappyferryman','frogman','thists','yips','cayke','wiljon','winkieshepherd'];
+    'pinkbear','bearsofbearcenter','unhappyferryman','frogman','thists','yips','cayke','wiljon','winkieshepherd',
+    'woot','tinsoldier','tommykwikstep','swynes','kuklip','loons','chopfyt','nimmieamee','tinwoodmanhead',
+    'bluerabbit','Hip-po-gy-raf','dragon','jaguar'];
 
 export let goodguys = ['dorothy','scarecrow','tinwoodman','cowardlylion','glinda','wogglebug',
     'jackpumpkinhead','toto','munchkins','wizardofoz','witchofthenorth','tip','sawhorse','gump',
@@ -24,7 +26,8 @@ export let goodguys = ['dorothy','scarecrow','tinwoodman','cowardlylion','glinda
     'kaq','queenann','quox','betsybobbin','shaggybrother','hank','ttthc','ooo','thewoman',
     'capnbill','gloria','bumpyman','ork','mobirds','trot','pon','seafairies','garee','zella','pinkerbloo',
     'bilbil','rinkitink','nikobob','inga','kingkitticut','lavenderbear','pinkbear','bearsofbearcenter',
-    'unhappyferryman','frogman','yips','cayke','giantsofherku','wiljon','winkieshepherd','glindasswans'];
+    'unhappyferryman','frogman','yips','cayke','giantsofherku','wiljon','winkieshepherd','glindasswans',
+    'woot','tinsoldier','tommykwikstep','swynes','kuklip','chopfyt','nimmieamee','bluerabbit'];
 
 export let sometimesgood = ['flyingmonkeys','jinjur','langwidere','pessim','kaliko']
 
@@ -32,7 +35,7 @@ export let badguys = ['kalida','witchofthewest','hammerheads','mombi','fightingt
     'wheeler','irongiant','nomeking','nomes','guph','longearedhearer','gargoyle','mangaboo','dragonette','scoodler',
     'utensils','phanfasm','whimsies','growleywog','yoop','envelopingleaves','chiss','gardener','blinkie',
     'krewl','frog','guardsofjinxland','googlygoo','buzzub','choggenmugger','hairygiant','cor',
-    'warriorofregos','gos','ugu'];
+    'warriorofregos','gos','ugu','mrsyoop','loons','witchoftheeast','dragon','jaguar'];
 
 
 
@@ -47,18 +50,20 @@ export let ozites = ['ozma','scarecrow','tinwoodman','glinda','jinjur','munchkin
 'tollydiggle','utensils','flutterbudget','buns','cuttenclips','fuddles','rigmarole','horners','yoop',
 'hoppers','ojo','uncnunkie','pipt', 'margolotte','tottenhots','files','queenann','ooo','thewoman',
 'gloria','blinkie','krewl','guardsofjinxland','googlygoo','pon','unhappyferryman','thists','yips',
-'czarover','ugu','cayke','giantsofherku','wiljon','winkieshepherd'];
+'czarover','ugu','cayke','giantsofherku','wiljon','winkieshepherd','woot','tinsoldier','mrsyoop',
+'tommykwikstep','kuklip','loons','nimmieamee'];
 
 export let abm = ['scarecrow','tinwoodman','jackpumpkinhead','sawhorse','gump','bearrug','glasscat',
-'patchworkgirl','phono','lavenderbear','pinkbear','bearsofbearcenter']
+'patchworkgirl','phono','lavenderbear','pinkbear','bearsofbearcenter','chopfyt']
 
 export let animals = ['toto','cowardlylion','wogglebug','kalida','flyingmonkeys','fieldmice','billina',
 'hungrytiger','eureka','piggy','jim','dragonette','foxes','donkeys','zebraandcrab','bunny','aligator',
 'kangaroo','woozy','glasscat','wisedonkeyandfoolishowl','chiss','quox','hank','frog','ork','mobirds',
 'choggenmugger','bilbil','UgusPeacock','lavenderbear','pinkbear','bearsofbearcenter','frogman',
-'glindasswans'];
+'glindasswans','swynes','bluerabbit','Hip-po-gy-raf','dragon','jaguar'];
 
-export let witches = ['mombi','glinda','witchofthewest','witchofthenorth','blinkie'];
+export let witches = ['mombi','glinda','witchofthewest','witchofthenorth','blinkie','mrsyoop',
+'witchoftheeast'];
 
 export let vfs = ['polychrome','royalev','wheeler','irongiant','langwidere','nomeking','guph','nomes',
 'nanda','gargoyle','mangaboo','braidedman','dyna','chickthecherub','princessfluff','scoodler',
@@ -67,7 +72,7 @@ export let vfs = ['polychrome','royalev','wheeler','irongiant','langwidere','nom
 'tottenhots','ozga','kaq','kaliko','gardener','roses','longear','ttthc','bumpyman','seafairies',
 'hairygiant']
 
-export let others = ['tiktok','envelopingleaves','UgusFakeArmy','pinkbear']
+export let others = ['tiktok','envelopingleaves','UgusFakeArmy','pinkbear','tinwoodmanhead']
 
 
 export function charactername(slug){
@@ -378,6 +383,36 @@ export function charactername(slug){
             return 'Winkie shepherd';
         case 'glindasswans':
             return "Glinda's swans";
+        case 'woot':
+            return 'Woot the Wanderer'
+        case 'tinsoldier':
+            return "Captain Fyter, the Tin Soldier";
+        case 'mrsyoop':
+            return "Mrs. Yoop, the yookoohoo";
+        case 'tommykwikstep':
+            return "Tommy Kwikstep";
+        case 'swynes':
+            return 'Professor Grunter Swyne and Mrs. Squealina Swyne';
+        case 'kuklip':
+            return 'Ku-Klip the tinsmith';
+        case 'loons':
+            return "Loons of Loonville";
+        case 'chopfyt':
+            return "Chopfyt";
+        case 'witchoftheeast':
+            return "Wicked Witch of the East";
+        case 'nimmieamee':
+            return "Nimmie Amee";
+        case 'tinwoodmanhead':
+            return "The Tin Woodman's former meat head";
+        case 'bluerabbit':
+            return 'The Blue Rabbit';
+        case 'Hip-po-gy-raf':
+            return "The Hip-po-gy-raf";
+        case 'dragon':
+            return "A dragon";
+        case 'jaguar':
+            return "A jaguar";
         default:
             return "";
     }
@@ -401,6 +436,188 @@ let character_lists = {
     'tmoo':{},
     'goo':{}
 };
+
+//
+// LISTS FOR THE BOOK ttwoo
+//
+
+
+character_lists['ttwoo']['scarecrow'] = ['endpapers.png',
+ 'i020-21s.png',
+ 'i037.png',
+ 'i041.png',
+ 'i045.png',
+ 'i047.jpg',
+ 'i051.png',
+ 'i054.png',
+ 'i068-69s.png',
+ 'i084-85s.png',
+ 'i099.png',
+ 'i103.png',
+ 'i119.jpg',
+ 'i160-161s.png',
+ 'i182.jpg',
+ 'i218-219s.png',
+ 'i261.png',
+ 'i270.png',
+ 'i276-277s.png'];
+
+character_lists['ttwoo']['sawhorse'] = ['i175.png'];
+
+character_lists['ttwoo']['woot'] = ['icover.jpg',
+'endpapers.png',
+'i014.png',
+'i020-21s.png',
+'i045.png',
+'i068-69s.png',
+'i075.jpg',
+'i084-85s.png',
+'i087.png',
+'i095.png',
+'i111.png',
+'i113.png',
+'i126.png',
+'i131.png',
+'i137.png',
+'i140.png',
+'i160-161s.png',
+'i163.jpg',
+'i185.png',
+'i218-219s.png',
+'i234-235s.png',
+'i251.png',
+'i270.png',
+'i276-277s.png',
+'i307.jpg'];
+
+character_lists['ttwoo']['tinsoldier'] = ['icover.jpg',
+'endpapers.png',
+'i006.jpg',
+'i008.png',
+'i207.jpg',
+'i218-219s.png',
+'i224.png',
+'i234-235s.png',
+'i259.jpg',
+'i276-277s.png',
+'i295.jpg',
+'i297.png',
+'i312.png'];
+
+character_lists['ttwoo']['jackpumpkinhead'] = ['endpapers.png'];
+
+character_lists['ttwoo']['mrsyoop'] = ['i084-85s.png', 'i087.png']
+
+character_lists['ttwoo']['wizardofoz'] = ['endpapers.png'];
+
+character_lists['ttwoo']['tommykwikstep'] = ['i147.png', 'i151.png'];
+
+character_lists['ttwoo']['betsybobbin'] = ['endpapers.png'];
+
+character_lists['ttwoo']['swynes'] = ['i276-277s.png'];
+
+character_lists['ttwoo']['kuklip'] = ['i031.png', 'i234-235s.png', 'i241.png'];
+
+character_lists['ttwoo']['loons'] = ['i008.png', 'i063.png', 'i065.png', 'i068-69s.png', 'i071.png'];
+
+character_lists['ttwoo']['toto'] = ['i175.png'];
+
+character_lists['ttwoo']['ozma'] = ['endpapers.png',
+'i010.png',
+'i173.png',
+'i175.png',
+'i182.jpg',
+'i185.png',
+'i195.png'];
+
+character_lists['ttwoo']['chopfyt'] = ['i241.png', 'i295.jpg'];
+
+character_lists['ttwoo']['witchoftheeast'] = ['i028.jpg', 'i237.png'];
+
+character_lists['ttwoo']['nimmieamee'] = ['i028.jpg', 'i237.png'];
+
+character_lists['ttwoo']['tinwoodmanhead'] = ['i227.png'];
+
+character_lists['ttwoo']['tinwoodman'] = ['icover.jpg',
+'endpapers.png',
+'i006.jpg',
+'i020-21s.png',
+'i023.png',
+'i028.jpg',
+'i031.png',
+'i037.png',
+'i045.png',
+'i047.jpg',
+'i068-69s.png',
+'i075.jpg',
+'i084-85s.png',
+'i119.jpg',
+'i155.png',
+'i160-161s.png',
+'i218-219s.png',
+'i224.png',
+'i227.png',
+'i234-235s.png',
+'i259.jpg',
+'i276-277s.png',
+'i297.png'];
+
+character_lists['ttwoo']['dorothy'] = ['endpapers.png', 'i004.png', 'i173.png', 'i175.png'];
+
+character_lists['ttwoo']['jinjur'] = ['i160-161s.png', 'i163.jpg', 'i192.png'];
+
+character_lists['ttwoo']['glinda'] = ['endpapers.png'];
+
+character_lists['ttwoo']['polychrome'] = ['i009.png',
+'i105.png',
+'i113.png',
+'i129.png',
+'i151.png',
+'i155.png',
+'i160-161s.png',
+'i191.png',
+'i207.jpg',
+'i218-219s.png',
+'i234-235s.png',
+'i243.jpg',
+'i267.png',
+'i283.png',
+'i286.png',
+'i307.jpg'];
+
+character_lists['ttwoo']['bluerabbit'] = ['i198.png','i286.png'];
+
+character_lists['ttwoo']['trot'] = ['endpapers.png'];
+
+character_lists['ttwoo']['Hip-po-gy-raf'] = ['i261.png', 'i267.png'];
+
+character_lists['ttwoo']['dragon'] = ['i137.png'];
+
+character_lists['ttwoo']['patchworkgirl'] = ['endpapers.png'];
+
+character_lists['ttwoo']['jaguar'] = ['i126.png', 'i129.png'];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -664,6 +881,7 @@ character_lists['tlpoo']['sawhorse'] = ['i033.png',
 'i269.png',
 'i293.png',
 'i323.png'];
+
 
 
 
