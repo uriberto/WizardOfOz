@@ -4,7 +4,7 @@
 	export let link;
 	export let src="/WizardOfOz/Images/Wonderful Wizard Of Oz/0001v.jpg";
 	export let charname;
-	export let alt
+	export let alt;
 	function link_click(){
 		if(link) goto(link);
 	}
