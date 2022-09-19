@@ -1,4 +1,4 @@
-export const book_list = ['twwoo','tmloo','ooo','datwio','trto','tecoo','tpgoo','ttoo','tsoo','rio','tlpoo','ttwoo','tmoo','goo']
+export const book_list = ['twwoo','tmloo','ooo','datwio','trto','tecoo','tpgoo','ttoo','tsoo','rio','tlpoo','ttwoo','tmoo','goo','wogglebug'];
 
 
 export const img_list = (slug) => {
@@ -31,6 +31,8 @@ export const img_list = (slug) => {
             return tmoo_list;
         case 'goo':
             return goo_list;
+        case 'wogglebug':
+            return wogglebug_list;
         default:
             return [];
     }
@@ -67,6 +69,8 @@ export const title = (slug) => {
             return "The Magic of Oz";
         case 'goo':
             return "Glinda of Oz";
+        case 'wogglebug':
+            return 'The Wogglebug Book'
         default:
             return '';
             
@@ -105,6 +109,8 @@ export const directory = (slug) => {
             return "WizardOfOz/Images/The Magic of Oz";
         case 'goo':
             return "WizardOfOz/Images/Glinda Of Oz";
+        case 'wogglebug':
+            return "WizardOfOz/Images/The Wogglebug Book";
         default:
             return '';
             
@@ -1704,4 +1710,10 @@ export const twwoo_list=['i001_edit.jpg',
 'i299_edit.jpg',
 'i301_edit.jpg',
 'i304_edit.jpg'];
+
+let arrayuptotwentyfive = Array.from({length: 24}, (_, i) => (i + 1)+'.jpg' );
+
+export const wogglebug_list = [
+    'cover.jpg', ...arrayuptotwentyfive
+];
 

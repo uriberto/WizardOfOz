@@ -494,7 +494,8 @@ let character_lists = {
     'tlpoo':{},
     'ttwoo':{},
     'tmoo':{},
-    'goo':{}
+    'goo':{},
+    'wogglebug':{}
 };
 
 
@@ -3828,6 +3829,14 @@ character_lists['twwoo']['tinwoodman'] = ['i001_edit.jpg',
 'i292_edit.jpg',
 'i294_edit.jpg'];
 
+
+
+
+
+
+let arrayofthreetotwentyfive = Array.from({length: 23}, (_, i) => (i + 3)+'.jpg' );
+
+character_lists['wogglebug']['wogglebug'] = ['cover.jpg','1.jpg', ...arrayofthreetotwentyfive];
 
 
 

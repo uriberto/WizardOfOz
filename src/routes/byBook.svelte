@@ -23,10 +23,11 @@
 	<title>Wizard Of Oz Books</title>
 </svelte:head>
 
-<h1 class="p-10">The Wizard Of Oz Books</h1>
+<h1 class="p-4">The Wizard Of Oz Books</h1>
+
+<h2 class="text-2xl text-center p-6">Original Series of L. Frank Baum Books</h2>
 
 <div class="flex flex-wrap -mb-4 container mx-auto">
-  
 	<ImgItem link="/book/twwoo" title="The Wonderful Wizard Of Oz" src="/WizardOfOz/Images/Wonderful%20Wizard%20Of%20Oz/i001_edit.jpg"/>
 	<ImgItem link="/book/tmloo" title="The Marvelous Land of Oz" src="/WizardOfOz/Images/Marvelous Land Of Oz Images/cover.jpeg"/>
 	<ImgItem link="/book/ooo" title="Ozma of Oz" src="/WizardOfOz/Images/Ozma Of Oz/cover.jpg"/>
@@ -46,4 +47,13 @@
 	<ImgItem link="/book/goo" title="Glinda of Oz" src="/WizardOfOz/Images/Glinda Of Oz/cover.jpg"/>
 
 </div>
+
+
+<h2 class="text-2xl text-center p-6">Additional L. Frank Baum Side-Books</h2>
+
+<div class="flex flex-wrap -mb-4 container mx-auto">
+	<ImgItem link="/book/wogglebug" title="The Wogglebug Book" src="/WizardOfOz/Images/The Wogglebug Book/cover.jpg"/>
+
+</div>
+
 
